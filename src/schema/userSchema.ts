@@ -1,9 +1,22 @@
 import { z } from "zod";
 
-export type UserInput = z.infer<typeof userSchema>;
+export type UserInputSignUp = z.infer<typeof userSchema>;
+export type UserInputLogin = z.infer<typeof userLoginSchema>;
 
-export const userSchema = z.object({
-  username: z.string().min(1).max(100),
-  password: z.string().min(8).max(50),
-  role: z.enum(["user", "admin"]),
-});
+const userUsername = z.string().min(1).max(100);
+const userPassword = z.string().min(8).max(50);
+
+export const userSchema = z
+  .object({
+    username: userUsername,
+    password: userPassword,
+    role: z.enum(["user", "admin"]),
+  })
+  .strict();
+
+export const userLoginSchema = z
+  .object({
+    username: userUsername,
+    password: userPassword,
+  })
+  .strict();

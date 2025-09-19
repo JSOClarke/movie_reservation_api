@@ -1,8 +1,15 @@
 import { PrismaClient } from "../generated/prisma";
-import { type UserInput } from "../schema/userSchema.js";
+import {
+  type UserInputLogin,
+  type UserInputSignUp,
+} from "../schema/userSchema.js";
 const prisma = new PrismaClient();
 
-export const signupUser = async ({ username, password, role }: UserInput) => {
+export const signupUser = async ({
+  username,
+  password,
+  role,
+}: UserInputSignUp) => {
   const user = prisma.users.create({
     data: {
       username: username,
@@ -11,7 +18,16 @@ export const signupUser = async ({ username, password, role }: UserInput) => {
     },
     select: {
       user_id: true,
-      role: true,
+      username: true,
+    },
+  });
+  return user;
+};
+
+export const loginUser = async (username: string) => {
+  const user = prisma.users.findUnique({
+    where: {
+      username: username,
     },
   });
   return user;

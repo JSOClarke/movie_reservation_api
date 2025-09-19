@@ -5,6 +5,8 @@ import movieRoutes from "./routes/movieRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import logger from "./config/logger.js";
 import { errorHandler } from "./middleware/errorHandler.js";
+import { authHandler } from "./middleware/authHandler.js";
+
 dotenv.config();
 
 const app = express();
@@ -12,7 +14,7 @@ const app = express();
 app.use("/", express.json());
 
 app.use("/health", healthRoutes);
-app.use("/movies", movieRoutes);
+app.use("/movies", authHandler, movieRoutes);
 app.use("/users", userRoutes);
 
 app.use(errorHandler);
