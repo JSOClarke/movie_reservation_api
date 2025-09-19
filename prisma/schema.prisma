@@ -1,0 +1,54 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model bookings {
+  booking_id   Int       @id @default(autoincrement())
+  user_id      Int
+  show_id      Int
+  booking_time DateTime? @default(now()) @db.Timestamp(6)
+  showings     showings  @relation(fields: [show_id], references: [show_id], onDelete: NoAction, onUpdate: NoAction)
+  users        users     @relation(fields: [user_id], references: [user_id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model movies {
+  movie_id    Int        @id @default(autoincrement())
+  title       String     @db.VarChar(100)
+  description String?
+  poster      String?    @db.VarChar(255)
+  genre       String?    @db.VarChar(100)
+  showings    showings[]
+}
+
+model screens {
+  screen_id            Int        @id @default(autoincrement())
+  seating_max_capacity Int
+  showings             showings[]
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model showings {
+  show_id               Int                      @id @default(autoincrement())
+  movie_id              Int
+  showtimes             Unsupported("tstzrange")
+  price                 Int
+  screen_id             Int
+  seating_curr_capacity Int                      @default(0)
+  bookings              bookings[]
+  movies                movies                   @relation(fields: [movie_id], references: [movie_id], onDelete: NoAction, onUpdate: NoAction)
+  screens               screens                  @relation(fields: [screen_id], references: [screen_id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model users {
+  user_id       Int        @id @default(autoincrement())
+  username      String     @unique @db.VarChar(100)
+  password_hash String     @db.VarChar(100)
+  role          String     @db.VarChar(50)
+  bookings      bookings[]
+}
