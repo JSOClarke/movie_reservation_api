@@ -1,4 +1,5 @@
 import pool from "../config/db.js";
+import logger from "../config/logger.js";
 
 const movieList = [
   {
@@ -148,14 +149,15 @@ export const seedAllMovies = async () => {
   await pool.query(`TRUNCATE TABLE movies RESTART IDENTITY CASCADE`);
 
   // ADD MOVIES
+  let count: number = 0;
   for (const movie of movieList) {
     await pool.query(
       `INSERT INTO movies (title, description, poster, genre) VALUES ($1, $2, $3, $4)`,
       [movie.title, movie.description, movie.poster, movie.genre]
     );
-    // Log or handle the response for each insert if needed
-    console.log(`Inserted movie with title: ${movie.title}`);
+    count = count + 1;
   }
+  logger.info(`Seeding 100% Completed, ${count} : Movies added`);
 };
 
-seedAllMovies();
+await seedAllMovies();

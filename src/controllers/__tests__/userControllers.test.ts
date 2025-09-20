@@ -1,4 +1,11 @@
-import { test, expect, beforeEach, describe } from "@jest/globals";
+import {
+  test,
+  expect,
+  beforeEach,
+  describe,
+  afterEach,
+  beforeAll,
+} from "@jest/globals";
 import request from "supertest";
 import app from "../../app.js";
 import pool from "../../config/db.js";
@@ -12,13 +19,17 @@ const goldenUser = {
   role: "user",
 };
 
-beforeEach(async () => {
+beforeAll(async () => {
   await pool.query(`TRUNCATE TABLE users RESTART IDENTITY CASCADE`);
   await pool.query(
     `INSERT INTO users (username,password_hash,role) VALUES ($1,$2,$3)`,
     [goldenUser.username, await hashPassword(goldenUser.password), "user"]
   );
 });
+
+// afterEach(async () => {
+//   await pool.query(`TRUNCATE TABLE users RESTART IDENTITY CASCADE`);
+// });
 
 const signupTD = [
   {
@@ -45,8 +56,8 @@ const signupTD = [
   },
   {
     title: "Missing role - return 400",
-    username: "littleman",
-    password: "cinderellastory",
+    username: "missingrole",
+    password: "missingrole",
     expectedStatus: 400,
     expectedKeys: ["errors"],
   },

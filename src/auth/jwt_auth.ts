@@ -1,13 +1,20 @@
 import dotenv from "dotenv";
 import jwt from "jsonwebtoken";
 dotenv.config();
-export const createToken = ({ user_id, username }) => {
+
+interface createTokenProps {
+  user_id: string;
+  username: string;
+  role: string;
+}
+
+export const createToken = ({ user_id, username, role }: createTokenProps) => {
   if (!process.env.JWT_SECRET) {
     throw new Error("No JWT Present");
   }
 
   const token = jwt.sign(
-    { user_id: user_id, username: username },
+    { user_id: user_id, username: username, role: role },
     process.env.JWT_SECRET,
     { expiresIn: "5h" }
   );

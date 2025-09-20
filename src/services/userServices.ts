@@ -1,8 +1,5 @@
 import { PrismaClient } from "../generated/prisma";
-import {
-  type UserInputLogin,
-  type UserInputSignUp,
-} from "../schema/userSchema.js";
+import { type UserInputSignUp } from "../schema/userSchema.js";
 const prisma = new PrismaClient();
 
 export const signupUser = async ({
@@ -19,6 +16,7 @@ export const signupUser = async ({
     select: {
       user_id: true,
       username: true,
+      role: true,
     },
   });
   return user;

@@ -8,7 +8,6 @@ import {
 } from "../schema/userSchema.js";
 import { comparedHash, hashPassword } from "../utils/encryption.js";
 // import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import logger from "../config/logger.js";
 import { createToken } from "../auth/jwt_auth.js";
@@ -31,6 +30,7 @@ export const userSignup = async (req: Request, res: Response) => {
   const token = createToken({
     user_id: response.user_id,
     username: response.username,
+    role: response.role,
   });
 
   res.status(200).json({ token: token });
