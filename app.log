@@ -628,3 +628,66 @@
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-19T23:48:38.193Z"}
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:700:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-19T23:48:38.193Z"}
 {"level":"info","message":"Server is up and running","timestamp":"2025-09-19T23:48:39.748Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:05:17.432Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:14:43.321Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:14:48.818Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:17:20.046Z"}
+{"level":"error","message":"Unhandled error: prisma.movies.many is not a function","stack":"TypeError: prisma.movies.many is not a function\n    at Module.listMovies (/home/jay/Documents/code_projects/movie_reservation/src/services/movieServices.ts:18:38)\n    at getMoviesAll (/home/jay/Documents/code_projects/movie_reservation/src/controllers/movieControllers.ts:9:40)\n    at Layer.handleRequest (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/layer.js:152:17)\n    at next (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/route.js:117:3)\n    at handle (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/layer.js:152:17)\n    at /home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:295:15\n    at processParams (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:582:12)\n    at next (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:291:5)","timestamp":"2025-09-20T00:19:30.338Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:19:49.052Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:31:59.616Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:33:15.675Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:35:28.681Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:36:51.370Z"}
+{"level":"info","message":"token undefined","timestamp":"2025-09-20T00:36:51.603Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:37:29.839Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:37:30.116Z"}
+{"level":"info","message":"token undefined","timestamp":"2025-09-20T00:37:30.123Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:38:30.150Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:38:30.372Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjg3MTAsImV4cCI6MTc1ODM0NjcxMH0.QFkbAMUlX1c8urM_kzvZikScsL3ME0ameVOUxCnF09I","timestamp":"2025-09-20T00:38:30.414Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:38:59.833Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:39:00.054Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjg3NDAsImV4cCI6MTc1ODM0Njc0MH0.litXFNc0S6slaVBBgBKC_tt6dsoSiO7gqKsoVyLojgQ","timestamp":"2025-09-20T00:39:00.115Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:40:32.494Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:40:32.721Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjg4MzIsImV4cCI6MTc1ODM0NjgzMn0.qGVIwYLQ6YcexgcgPxux7-wTC1vP1J4YSHpavmw-Q0o","timestamp":"2025-09-20T00:40:32.762Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:40:48.922Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:40:49.177Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjg4NDksImV4cCI6MTc1ODM0Njg0OX0.LirWUGEkb4ltd0bOrgvl2c7TLYleNoBt9qRgTL4e4io","timestamp":"2025-09-20T00:40:49.218Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:44:51.026Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:44:51.317Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjkwOTEsImV4cCI6MTc1ODM0NzA5MX0.CuL-PFh7SesoiegdyVJl32zg_CtPhN-qTQ5nIwpYI1w","timestamp":"2025-09-20T00:44:51.378Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:45:01.037Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:45:01.511Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjkxMDEsImV4cCI6MTc1ODM0NzEwMX0.r3Ft8lx0v3SBUu6ETyIzK1iCVRYpPv3HyaycLCh1N9A","timestamp":"2025-09-20T00:45:01.579Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:48:17.742Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:48:18.012Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjkyOTgsImV4cCI6MTc1ODM0NzI5OH0.6cHuAWhjSleNkd6b0pTrl5XLyRq3EM71TS7l4EJlfvg","timestamp":"2025-09-20T00:48:18.046Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:50:25.974Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:50:26.215Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk0MjYsImV4cCI6MTc1ODM0NzQyNn0.53pQmvm6g-7InZfWVM3QT-udjnghNjqHlY50kY_J9ec","timestamp":"2025-09-20T00:50:26.283Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:53:11.890Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:53:11.969Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:53:12.122Z"}
+{"level":"info","message":"token undefined","timestamp":"2025-09-20T00:53:12.126Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:53:12.287Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk1OTIsImV4cCI6MTc1ODM0NzU5Mn0.MODvxYEQTgmaSefRtERIJS-gvG5lhfh8oBijWkpluEQ","timestamp":"2025-09-20T00:53:12.324Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-20T00:53:12.746Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:700:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-20T00:53:12.746Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:54:13.288Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:54:13.542Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk2NTMsImV4cCI6MTc1ODM0NzY1M30.W5fCRKXZG9DEEt0t0bqwFDz9RFpMId0sU2W0RhdgnLQ","timestamp":"2025-09-20T00:54:13.602Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:54:13.762Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk2NTMsImV4cCI6MTc1ODM0NzY1M30.W5fCRKXZG9DEEt0t0bqwFDz9RFpMId0sU2W0RhdgnLQ","timestamp":"2025-09-20T00:54:13.766Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:54:27.367Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:54:30.509Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:54:30.716Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk2NzAsImV4cCI6MTc1ODM0NzY3MH0.akYuZr_WcT2iET3rkUozrwkPzlcpgSnX8eEozzpbboM","timestamp":"2025-09-20T00:54:30.749Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:54:30.918Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk2NzAsImV4cCI6MTc1ODM0NzY3MH0.akYuZr_WcT2iET3rkUozrwkPzlcpgSnX8eEozzpbboM","timestamp":"2025-09-20T00:54:30.923Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:55:03.014Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:55:03.282Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk3MDMsImV4cCI6MTc1ODM0NzcwM30.ToLZG9OmzFAVqPQENZ948Iz_unXxZRX35Hn8EynUchk","timestamp":"2025-09-20T00:55:03.323Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-20T00:55:03.465Z"}
+{"level":"info","message":"token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImdvbGRlbnVzZXIiLCJpYXQiOjE3NTgzMjk3MDMsImV4cCI6MTc1ODM0NzcwM30.ToLZG9OmzFAVqPQENZ948Iz_unXxZRX35Hn8EynUchk","timestamp":"2025-09-20T00:55:03.475Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-20T00:58:47.461Z"}

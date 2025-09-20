@@ -13,3 +13,8 @@ export const createMovie = async () => {
 
   return movie;
 };
+
+export const listMovies = async () => {
+  const movies = await prisma.movies.findMany();
+  return movies;
+};

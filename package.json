@@ -4,6 +4,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
+    "server": "npx tsx --watch ./src/app.ts ",
     "test": "jest --watchAll"
   },
   "keywords": [],

@@ -1,14 +1,21 @@
 import logger from "../config/logger.js";
 import type { Response, Request } from "express";
 import * as movieServices from "../services/movieServices.js";
+import { getMoviesSchema } from "../schema/movieSchema.js";
 
-export const addMovie = async (req: Request, res: Response) => {
-  //   const { title,description,poster,genere} = req.body;
-  try {
-    const response = await movieServices.createMovie();
-    logger.info(response);
-  } catch (err: Error) {
-    logger.error(err);
-    res.status(500).json({ error: err.message });
+export const getMoviesAll = async (req: Request, res: Response) => {
+  // const validatedBody = getMoviesSchema.parse(req.body)
+
+  const response = await movieServices.listMovies();
+  if (!response) {
+    return res.status(200).json([]);
   }
+  res.status(200).json(response);
 };
+
+// export const addMovie = async (req: Request, res: Response) => {
+//     const validatedBody = getMoviesSchema.parse(req.body)
+
+//     const response = await movieServices.list()
+
+// };
