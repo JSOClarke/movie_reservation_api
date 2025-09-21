@@ -9,12 +9,14 @@ datasource db {
 }
 
 model bookings {
-  booking_id   Int       @id @default(autoincrement())
-  user_id      Int
-  show_id      Int
-  booking_time DateTime? @default(now()) @db.Timestamp(6)
-  showings     showings  @relation(fields: [show_id], references: [show_id], onDelete: NoAction, onUpdate: NoAction)
-  users        users     @relation(fields: [user_id], references: [user_id], onDelete: NoAction, onUpdate: NoAction)
+  booking_id Int       @id @default(autoincrement())
+  user_id    Int
+  show_id    Int
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  seat_id    Int
+  showings   showings  @relation(fields: [show_id], references: [show_id], onDelete: NoAction, onUpdate: NoAction)
+  users      users     @relation(fields: [user_id], references: [user_id], onDelete: NoAction, onUpdate: NoAction)
+  seats      seats     @relation(fields: [seat_id], references: [seat_id], onDelete: Cascade, onUpdate: NoAction, map: "fk_seat")
 }
 
 model movies {
@@ -27,9 +29,10 @@ model movies {
 }
 
 model screens {
-  screen_id            Int        @id @default(autoincrement())
-  seating_max_capacity Int
-  showings             showings[]
+  screen_id   Int           @id @default(autoincrement())
+  screen_rows screen_rows[]
+  seats       seats[]
+  showings    showings[]
 }
 
 /// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
@@ -51,4 +54,23 @@ model users {
   password_hash String     @db.VarChar(100)
   role          String     @db.VarChar(50)
   bookings      bookings[]
+}
+
+model seats {
+  seat_id    Int        @id @default(autoincrement())
+  screen_id  Int
+  row_label  String     @db.Char(1)
+  col_number Int
+  seat_code  String     @db.VarChar(4)
+  bookings   bookings[]
+  screens    screens    @relation(fields: [screen_id], references: [screen_id], onDelete: Cascade, onUpdate: NoAction, map: "fk_screen")
+}
+
+model screen_rows {
+  row_id    Int     @id(map: "screen_row_pkey") @default(autoincrement())
+  screen_id Int
+  row_label String  @db.Char(1)
+  max_seats Int
+  seat_type String? @default("regular") @db.VarChar(20)
+  screens   screens @relation(fields: [screen_id], references: [screen_id], onDelete: Cascade, onUpdate: NoAction, map: "fk_screen")
 }

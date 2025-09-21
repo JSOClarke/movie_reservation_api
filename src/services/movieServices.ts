@@ -46,7 +46,7 @@ export const removeMovie = async (movie_id: removeMovieInput) => {
   return movie_id_return;
 };
 
-export const createScreening = async ({
+export const createShowing = async ({
   movie_id,
   start_time,
   end_time,

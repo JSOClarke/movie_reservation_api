@@ -14,6 +14,8 @@ dotenv.config();
 
 const app = express();
 
+const PORT = process.env.PORT || 4002;
+
 app.use("/", express.json());
 
 app.use("/health", healthRoutes);
@@ -25,8 +27,10 @@ app.use("/showings", showingRoutes);
 app.use(errorHandler);
 
 // app.use("/");
+try {
+  app.listen(PORT, () => logger.info(`Server has been started ${PORT}`));
+} catch (err) {
+  logger.info(err);
+}
 
-app.listen(process.env.PORT, () =>
-  logger.info(`Server has been started ${process.env.PORT}`)
-);
 export default app;

@@ -4,7 +4,6 @@ import app from "../../app.js";
 import pool from "../../config/db.js";
 import logger from "../../config/logger.js";
 import { hashPassword } from "../../utils/encryption.js";
-import { title } from "process";
 import { seedAllMovies } from "../../seeders/01-Movies.js";
 
 const goldenUser = {

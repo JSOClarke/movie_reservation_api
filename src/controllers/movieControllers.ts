@@ -44,7 +44,7 @@ export const addShowings = async (req: Request, res: Response, next) => {
   const validatedBody = addShowingSchema.parse(req.body);
 
   try {
-    const response = await movieServices.createScreening(validatedBody);
+    const response = await movieServices.createShowing(validatedBody);
     res.status(200).json(response);
   } catch (err: Error) {
     if (err.code === "23P01") {

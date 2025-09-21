@@ -160,4 +160,4 @@ export const seedAllMovies = async () => {
   logger.info(`Seeding 100% Completed, ${count} : Movies added`);
 };
 
-await seedAllMovies();
+seedAllMovies();

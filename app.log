@@ -3140,3 +3140,335 @@
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T00:27:31.758Z"}
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T00:27:31.758Z"}
 {"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T00:27:31.916Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:11:54.757Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:11:55.112Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:11:55.112Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:11:55.273Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:26:00.905Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:26:01.250Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:26:01.250Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:26:01.415Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:26:12.445Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:26:12.855Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:700:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:26:12.855Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:26:13.073Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:27:25.520Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:27:25.903Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:27:25.903Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:27:26.097Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:27:43.445Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:27:43.793Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:27:43.793Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:27:43.967Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:44.032Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:44.161Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:44.295Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:44.451Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:44.630Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:44.763Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:44.895Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:45.025Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:45.158Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:45.289Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:45.327Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:45.468Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:45.540Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:45.680Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:45.719Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:27:46.785Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:46.853Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:47.005Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:47.171Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:47.306Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:47.445Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:47.586Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:47.728Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:47.869Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:48.009Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:48.160Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:48.199Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:48.335Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:48.370Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:27:48.530Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:27:48.561Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:27:48.755Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:27:49.097Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:700:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:27:49.097Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:32:55.256Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:32:55.349Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:55.490Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:55.675Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:55.851Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:55.992Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:56.134Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:56.267Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:56.427Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:56.565Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:56.700Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:32:56.734Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:56.898Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:32:56.932Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:32:57.058Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:32:57.098Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:32:57.269Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:32:57.619Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:700:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:32:57.619Z"}
+{"charset":"utf-8","level":"error","message":"Unhandled error: unsupported charset \"UTF-8\"","timestamp":"2025-09-21T02:34:48.734Z","type":"charset.unsupported"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:35:21.930Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:35:28.664Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:35:28.763Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:28.878Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.017Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.148Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.282Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.412Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.540Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.698Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.826Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:29.955Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:35:29.991Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:30.122Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:35:30.157Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:35:30.302Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:35:30.340Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:35:30.517Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:35:30.889Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:35:30.889Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:35:33.852Z"}
+{"charset":"utf-8","level":"error","message":"Unhandled error: unsupported charset \"UTF-8\"","timestamp":"2025-09-21T02:35:37.836Z","type":"charset.unsupported"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:35:54.520Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:36:07.610Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:36:13.772Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:36:40.218Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:37:47.767Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:39:53.964Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:39:54.076Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:54.195Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:39:54.293Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:54.334Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:54.460Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:54.631Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:54.758Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:54.932Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:55.098Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:55.231Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:55.361Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:39:55.399Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:55.554Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:39:55.592Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:39:55.778Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:39:55.817Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:39:55.995Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:39:56.378Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:39:56.378Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:39:59.674Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:40:11.016Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:41:16.748Z"}
+{"charset":"utf-8","level":"error","message":"Unhandled error: unsupported charset \"UTF-8\"","timestamp":"2025-09-21T02:41:24.630Z","type":"charset.unsupported"}
+{"charset":"utf-8","level":"error","message":"Unhandled error: unsupported charset \"UTF-8\"","timestamp":"2025-09-21T02:41:30.950Z","type":"charset.unsupported"}
+{"charset":"utf-8","level":"error","message":"Unhandled error: unsupported charset \"UTF-8\"","timestamp":"2025-09-21T02:41:50.317Z","type":"charset.unsupported"}
+{"charset":"utf-8","level":"error","message":"Unhandled error: unsupported charset \"UTF-8\"","timestamp":"2025-09-21T02:41:57.778Z","type":"charset.unsupported"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:50:59.506Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:50:59.640Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:50:59.754Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:50:59.892Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:50:59.944Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:00.026Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:00.158Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:00.290Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:00.424Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:00.569Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:00.695Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:00.875Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:51:00.961Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:01.119Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:51:01.157Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:01.298Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:51:01.334Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:51:01.506Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:51:01.918Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:51:01.918Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:51:03.517Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:51:13.090Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:51:32.205Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:51:32.344Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:32.519Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:51:32.558Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:32.662Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:32.795Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:32.929Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:33.058Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:33.237Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:33.377Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:33.508Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:33.649Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:51:33.681Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:33.808Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:51:33.840Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T02:51:33.965Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T02:51:33.998Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:51:34.158Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T02:51:34.495Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T02:51:34.495Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:51:34.855Z"}
+{"level":"info","message":"Server has been started 4002","timestamp":"2025-09-21T02:51:53.143Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T02:52:08.854Z"}
+{"level":"info","message":"Server has been started 4002","timestamp":"2025-09-21T02:52:21.066Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:52:35.362Z"}
+{"level":"info","message":"Server has been started 4001","timestamp":"2025-09-21T02:59:19.946Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T14:41:27.908Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T14:46:51.799Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T14:46:51.822Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T14:46:57.142Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T14:46:57.159Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T14:47:15.450Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T14:47:33.417Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.543Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.545Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.545Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.545Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.545Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.545Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.545Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.546Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.546Z"}
+{"level":"info","message":"Start Date: Invalid Date, End Date: Invalid Date ","timestamp":"2025-09-21T15:10:41.546Z"}
+{"level":"info","message":"Start Date: Fri May 09 2025 07:00:00 GMT+0100 (British Summer Time), End Date: Fri May 09 2025 07:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.113Z"}
+{"level":"info","message":"Start Date: Fri May 09 2025 13:00:00 GMT+0100 (British Summer Time), End Date: Fri May 09 2025 13:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.115Z"}
+{"level":"info","message":"Start Date: Fri May 09 2025 19:00:00 GMT+0100 (British Summer Time), End Date: Fri May 09 2025 19:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.115Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 01:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 01:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.115Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 07:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 07:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.115Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 13:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 13:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.115Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 19:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 19:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.116Z"}
+{"level":"info","message":"Start Date: Sun May 11 2025 01:00:00 GMT+0100 (British Summer Time), End Date: Sun May 11 2025 01:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.116Z"}
+{"level":"info","message":"Start Date: Sun May 11 2025 07:00:00 GMT+0100 (British Summer Time), End Date: Sun May 11 2025 07:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.116Z"}
+{"level":"info","message":"Start Date: Sun May 11 2025 13:00:00 GMT+0100 (British Summer Time), End Date: Sun May 11 2025 13:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:12:39.116Z"}
+{"level":"info","message":"Start Date: Fri May 09 2025 07:00:00 GMT+0100 (British Summer Time), End Date: Fri May 09 2025 07:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.473Z"}
+{"level":"info","message":"Start Date: Fri May 09 2025 13:00:00 GMT+0100 (British Summer Time), End Date: Fri May 09 2025 13:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.474Z"}
+{"level":"info","message":"Start Date: Fri May 09 2025 19:00:00 GMT+0100 (British Summer Time), End Date: Fri May 09 2025 19:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.474Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 01:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 01:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.475Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 07:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 07:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.475Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 13:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 13:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.475Z"}
+{"level":"info","message":"Start Date: Sat May 10 2025 19:00:00 GMT+0100 (British Summer Time), End Date: Sat May 10 2025 19:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.475Z"}
+{"level":"info","message":"Start Date: Sun May 11 2025 01:00:00 GMT+0100 (British Summer Time), End Date: Sun May 11 2025 01:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.475Z"}
+{"level":"info","message":"Start Date: Sun May 11 2025 07:00:00 GMT+0100 (British Summer Time), End Date: Sun May 11 2025 07:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.476Z"}
+{"level":"info","message":"Start Date: Sun May 11 2025 13:00:00 GMT+0100 (British Summer Time), End Date: Sun May 11 2025 13:00:00 GMT+0100 (British Summer Time) ","timestamp":"2025-09-21T15:14:15.476Z"}
+{"level":"info","message":"Start Date: 2025-05-09T01:00:00.000Z, End Date: 2025-05-09T06:00:00.000Z","timestamp":"2025-09-21T15:16:05.910Z"}
+{"level":"info","message":"Start Date: 2025-05-09T07:00:00.000Z, End Date: 2025-05-09T12:00:00.000Z","timestamp":"2025-09-21T15:16:05.911Z"}
+{"level":"info","message":"Start Date: 2025-05-09T13:00:00.000Z, End Date: 2025-05-09T18:00:00.000Z","timestamp":"2025-09-21T15:16:05.912Z"}
+{"level":"info","message":"Start Date: 2025-05-09T19:00:00.000Z, End Date: 2025-05-10T00:00:00.000Z","timestamp":"2025-09-21T15:16:05.912Z"}
+{"level":"info","message":"Start Date: 2025-05-10T01:00:00.000Z, End Date: 2025-05-10T06:00:00.000Z","timestamp":"2025-09-21T15:16:05.912Z"}
+{"level":"info","message":"Start Date: 2025-05-10T07:00:00.000Z, End Date: 2025-05-10T12:00:00.000Z","timestamp":"2025-09-21T15:16:05.912Z"}
+{"level":"info","message":"Start Date: 2025-05-10T13:00:00.000Z, End Date: 2025-05-10T18:00:00.000Z","timestamp":"2025-09-21T15:16:05.912Z"}
+{"level":"info","message":"Start Date: 2025-05-10T19:00:00.000Z, End Date: 2025-05-11T00:00:00.000Z","timestamp":"2025-09-21T15:16:05.913Z"}
+{"level":"info","message":"Start Date: 2025-05-11T01:00:00.000Z, End Date: 2025-05-11T06:00:00.000Z","timestamp":"2025-09-21T15:16:05.913Z"}
+{"level":"info","message":"Start Date: 2025-05-11T07:00:00.000Z, End Date: 2025-05-11T12:00:00.000Z","timestamp":"2025-09-21T15:16:05.913Z"}
+{"level":"info","message":"Start Date: 2025-05-09T01:00:00.000Z, End Date: 2025-05-09T03:00:00.000Z","timestamp":"2025-09-21T15:20:47.151Z"}
+{"level":"info","message":"Seeding Completed, 10: Screens Added to DB","timestamp":"2025-09-21T15:25:38.114Z"}
+{"level":"info","message":"SHOW ID: 2Start Date: 2025-05-09T01:00:00.000Z, End Date: 2025-05-09T03:00:00.000Z","timestamp":"2025-09-21T15:25:59.323Z"}
+{"level":"info","message":"SHOW ID: 1Start Date: 2025-05-09T01:00:00.000Z, End Date: 2025-05-09T03:00:00.000Z","timestamp":"2025-09-21T15:27:14.677Z"}
+{"level":"info","message":"SHOW ID: 1Start Date: 2025-05-09T01:00:00.000Z, End Date: 2025-05-09T03:00:00.000Z","timestamp":"2025-09-21T15:29:50.750Z"}
+{"level":"info","message":"SHOW ID: 2Start Date: 2025-05-09T04:00:00.000Z, End Date: 2025-05-09T06:00:00.000Z","timestamp":"2025-09-21T15:29:50.754Z"}
+{"level":"info","message":"SHOW ID: 3Start Date: 2025-05-09T07:00:00.000Z, End Date: 2025-05-09T09:00:00.000Z","timestamp":"2025-09-21T15:29:50.755Z"}
+{"level":"info","message":"SHOW ID: 4Start Date: 2025-05-09T10:00:00.000Z, End Date: 2025-05-09T12:00:00.000Z","timestamp":"2025-09-21T15:29:50.757Z"}
+{"level":"info","message":"SHOW ID: 5Start Date: 2025-05-09T13:00:00.000Z, End Date: 2025-05-09T15:00:00.000Z","timestamp":"2025-09-21T15:29:50.759Z"}
+{"level":"info","message":"SHOW ID: 6Start Date: 2025-05-09T16:00:00.000Z, End Date: 2025-05-09T18:00:00.000Z","timestamp":"2025-09-21T15:29:50.761Z"}
+{"level":"info","message":"SHOW ID: 7Start Date: 2025-05-09T19:00:00.000Z, End Date: 2025-05-09T21:00:00.000Z","timestamp":"2025-09-21T15:29:50.764Z"}
+{"level":"info","message":"SHOW ID: 8Start Date: 2025-05-09T22:00:00.000Z, End Date: 2025-05-10T00:00:00.000Z","timestamp":"2025-09-21T15:29:50.766Z"}
+{"level":"info","message":"SHOW ID: 9Start Date: 2025-05-10T01:00:00.000Z, End Date: 2025-05-10T03:00:00.000Z","timestamp":"2025-09-21T15:29:50.768Z"}
+{"level":"info","message":"SHOW ID: 10Start Date: 2025-05-10T04:00:00.000Z, End Date: 2025-05-10T06:00:00.000Z","timestamp":"2025-09-21T15:29:50.770Z"}
+{"level":"info","message":"SHOW ID: 11Start Date: 2025-05-10T07:00:00.000Z, End Date: 2025-05-10T09:00:00.000Z","timestamp":"2025-09-21T15:29:50.772Z"}
+{"level":"info","message":"SHOW ID: 12Start Date: 2025-05-10T10:00:00.000Z, End Date: 2025-05-10T12:00:00.000Z","timestamp":"2025-09-21T15:29:50.774Z"}
+{"level":"info","message":"SHOW ID: 13Start Date: 2025-05-10T13:00:00.000Z, End Date: 2025-05-10T15:00:00.000Z","timestamp":"2025-09-21T15:29:50.775Z"}
+{"level":"info","message":"SHOW ID: 14Start Date: 2025-05-10T16:00:00.000Z, End Date: 2025-05-10T18:00:00.000Z","timestamp":"2025-09-21T15:29:50.777Z"}
+{"level":"info","message":"SHOW ID: 15Start Date: 2025-05-10T19:00:00.000Z, End Date: 2025-05-10T21:00:00.000Z","timestamp":"2025-09-21T15:29:50.778Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T15:35:30.550Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T15:36:26.526Z"}
+{"level":"info","message":"Seeding Completed, 10: Screens Added to DB","timestamp":"2025-09-21T16:32:50.686Z"}
+{"level":"info","message":"Seeding Completed, 10: Screens Added to DB, and 500 Seats added","timestamp":"2025-09-21T16:36:50.146Z"}
+{"level":"info","message":"Seeding Completed, 10: Screens Added to DB, and 500 Seats added","timestamp":"2025-09-21T16:37:27.155Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T17:18:06.262Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T17:18:06.401Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:06.536Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:06.699Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:06.857Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:06.987Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:07.122Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:07.291Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:07.463Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:07.605Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:07.747Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T17:18:07.784Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:07.916Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T17:18:07.948Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T17:18:08.081Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T17:18:08.115Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T17:18:08.287Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T17:18:08.610Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T17:18:08.610Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T17:18:15.630Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T17:18:29.538Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T17:19:22.545Z"}
+{"level":"info","message":"Seeding Completed, 1: Screens Added to DB, and 20 Seats added","timestamp":"2025-09-21T17:51:59.402Z"}
+{"level":"info","message":"Seeding Completed, 1: Screens Added to DB, and 20 Seats added","timestamp":"2025-09-21T17:52:32.969Z"}
+{"level":"info","message":"Seeding Completed, 1: Screens Added to DB, and 20 Seats added","timestamp":"2025-09-21T17:58:35.599Z"}
+{"level":"info","message":"Seeding Completed, 1: Screens Added to DB, and 20 Seats added","timestamp":"2025-09-21T18:03:11.349Z"}
+{"level":"info","message":"Seeding Completed, 1: Screens Added to DB, and 20 Seats added","timestamp":"2025-09-21T18:03:28.379Z"}
+{"level":"info","message":"Seeding Completed, 2: Screens Added to DB, and 46 Seats added","timestamp":"2025-09-21T18:04:29.423Z"}
+{"level":"info","message":"SHOW ID: 1Start Date: 2025-05-09T01:00:00.000Z, End Date: 2025-05-09T03:00:00.000Z","timestamp":"2025-09-21T18:06:49.118Z"}
+{"level":"info","message":"SHOW ID: 2Start Date: 2025-05-09T04:00:00.000Z, End Date: 2025-05-09T06:00:00.000Z","timestamp":"2025-09-21T18:06:49.197Z"}
+{"level":"info","message":"SHOW ID: 3Start Date: 2025-05-09T07:00:00.000Z, End Date: 2025-05-09T09:00:00.000Z","timestamp":"2025-09-21T18:06:49.276Z"}
+{"level":"info","message":"SHOW ID: 4Start Date: 2025-05-09T10:00:00.000Z, End Date: 2025-05-09T12:00:00.000Z","timestamp":"2025-09-21T18:06:49.354Z"}
+{"level":"info","message":"SHOW ID: 5Start Date: 2025-05-09T13:00:00.000Z, End Date: 2025-05-09T15:00:00.000Z","timestamp":"2025-09-21T18:06:49.431Z"}
+{"level":"info","message":"SHOW ID: 6Start Date: 2025-05-09T16:00:00.000Z, End Date: 2025-05-09T18:00:00.000Z","timestamp":"2025-09-21T18:06:49.536Z"}
+{"level":"info","message":"SHOW ID: 7Start Date: 2025-05-09T19:00:00.000Z, End Date: 2025-05-09T21:00:00.000Z","timestamp":"2025-09-21T18:06:49.631Z"}
+{"level":"info","message":"SHOW ID: 8Start Date: 2025-05-09T22:00:00.000Z, End Date: 2025-05-10T00:00:00.000Z","timestamp":"2025-09-21T18:06:49.725Z"}
+{"level":"info","message":"SHOW ID: 9Start Date: 2025-05-10T01:00:00.000Z, End Date: 2025-05-10T03:00:00.000Z","timestamp":"2025-09-21T18:06:49.824Z"}
+{"level":"info","message":"SHOW ID: 10Start Date: 2025-05-10T04:00:00.000Z, End Date: 2025-05-10T06:00:00.000Z","timestamp":"2025-09-21T18:06:49.903Z"}
+{"level":"info","message":"SHOW ID: 11Start Date: 2025-05-10T07:00:00.000Z, End Date: 2025-05-10T09:00:00.000Z","timestamp":"2025-09-21T18:06:49.907Z"}
+{"level":"info","message":"SHOW ID: 12Start Date: 2025-05-10T10:00:00.000Z, End Date: 2025-05-10T12:00:00.000Z","timestamp":"2025-09-21T18:06:49.911Z"}
+{"level":"info","message":"SHOW ID: 13Start Date: 2025-05-10T13:00:00.000Z, End Date: 2025-05-10T15:00:00.000Z","timestamp":"2025-09-21T18:06:49.914Z"}
+{"level":"info","message":"SHOW ID: 14Start Date: 2025-05-10T16:00:00.000Z, End Date: 2025-05-10T18:00:00.000Z","timestamp":"2025-09-21T18:06:49.917Z"}
+{"level":"info","message":"SHOW ID: 15Start Date: 2025-05-10T19:00:00.000Z, End Date: 2025-05-10T21:00:00.000Z","timestamp":"2025-09-21T18:06:49.921Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:09:56.331Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:21:49.023Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:22:16.873Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:22:22.848Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:22:35.787Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:24:05.857Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:25:05.075Z"}
+{"level":"info","message":{"show_id":"1"},"timestamp":"2025-09-21T18:25:06.456Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:26:15.372Z"}
+{"level":"info","message":{"show_id":"1"},"timestamp":"2025-09-21T18:26:29.288Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:26:38.463Z"}
+{"level":"info","message":{"show_id":"1"},"timestamp":"2025-09-21T18:26:47.503Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:27:39.567Z"}
+{"level":"info","message":{"show_id":"1"},"timestamp":"2025-09-21T18:27:41.506Z"}
+{"level":"error","message":"Unhandled error: Cannot read properties of undefined (reading 'findMany')","stack":"TypeError: Cannot read properties of undefined (reading 'findMany')\n    at gatherShowingSeats (/home/jay/Documents/code_projects/movie_reservation/src/services/showingServices.ts:31:39)\n    at listShowingSeats (/home/jay/Documents/code_projects/movie_reservation/src/controllers/showingControllers.ts:20:26)\n    at Layer.handleRequest (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/layer.js:152:17)\n    at next (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/route.js:117:3)\n    at handle (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/lib/layer.js:152:17)\n    at /home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:295:15\n    at param (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:600:14)\n    at param (/home/jay/Documents/code_projects/movie_reservation/node_modules/router/index.js:610:14)","timestamp":"2025-09-21T18:27:41.509Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:31:39.542Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:31:44.329Z"}
+{"level":"info","message":{"show_id":"1"},"timestamp":"2025-09-21T18:31:49.363Z"}
+{"level":"info","message":{"show_id":"2"},"timestamp":"2025-09-21T18:32:41.826Z"}
+{"level":"info","message":{"show_id":"dany"},"timestamp":"2025-09-21T18:32:56.921Z"}
+{"level":"info","message":{"show_id":"333"},"timestamp":"2025-09-21T18:33:03.181Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:33:21.203Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:33:31.403Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:53:27.715Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:56:37.631Z"}
+{"clientVersion":"6.16.2","level":"error","message":"Unhandled error: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, created_at, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          created_at: undefined,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.","name":"PrismaClientValidationError","stack":"PrismaClientValidationError: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, created_at, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          created_at: undefined,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.\n    at Nn (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:32:1363)\n    at ei.handleRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6911)\n    at ei.handleAndLogRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6593)\n    at ei.request (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6300)\n    at async a (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:133:9551)\n    at async addBooking (/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:20)\n    at async createBooking (/home/jay/Documents/code_projects/movie_reservation/src/controllers/reservationControllers.ts:9:20)","timestamp":"2025-09-21T18:56:38.816Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:57:43.288Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T18:57:45.026Z"}
+{"clientVersion":"6.16.2","level":"error","message":"Unhandled error: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, created_at, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          created_at: undefined,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.","name":"PrismaClientValidationError","stack":"PrismaClientValidationError: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, created_at, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          created_at: undefined,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.\n    at Nn (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:32:1363)\n    at ei.handleRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6911)\n    at ei.handleAndLogRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6593)\n    at ei.request (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6300)\n    at async a (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:133:9551)\n    at async addBooking (/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:20)\n    at async createBooking (/home/jay/Documents/code_projects/movie_reservation/src/controllers/reservationControllers.ts:11:20)","timestamp":"2025-09-21T18:57:45.066Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T18:58:50.075Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T18:58:52.120Z"}
+{"clientVersion":"6.16.2","level":"error","message":"Unhandled error: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.","name":"PrismaClientValidationError","stack":"PrismaClientValidationError: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.\n    at Nn (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:32:1363)\n    at ei.handleRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6911)\n    at ei.handleAndLogRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6593)\n    at ei.request (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6300)\n    at async a (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:133:9551)\n    at async addBooking (/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:20)\n    at async createBooking (/home/jay/Documents/code_projects/movie_reservation/src/controllers/reservationControllers.ts:11:20)","timestamp":"2025-09-21T18:58:52.186Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:00:46.519Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T19:01:18.587Z"}
+{"clientVersion":"6.16.2","level":"error","message":"Unhandled error: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.","name":"PrismaClientValidationError","stack":"PrismaClientValidationError: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, seat_id }) => {\n→ 7   const response = await prisma.bookings.create({\n        data: {\n          user_id: 1,\n          show_id: 1,\n          seat_id: 1,\n          ~~~~~~~\n      ?   booking_id?: Int,\n      ?   booking_time?: DateTime | Null\n        },\n        select: {\n          booking_id: true\n        }\n      })\n\nUnknown argument `seat_id`. Did you mean `user_id`? Available options are marked with ?.\n    at Nn (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:32:1363)\n    at ei.handleRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6911)\n    at ei.handleAndLogRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6593)\n    at ei.request (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6300)\n    at async a (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:133:9551)\n    at async addBooking (/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:20)\n    at async createBooking (/home/jay/Documents/code_projects/movie_reservation/src/controllers/reservationControllers.ts:11:20)","timestamp":"2025-09-21T19:01:18.637Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:02:48.892Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:03:01.878Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:03:25.041Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T19:03:26.914Z"}
+{"level":"error","message":"Unhandled error: res.stats is not a function","stack":"TypeError: res.stats is not a function\n    at createBooking (/home/jay/Documents/code_projects/movie_reservation/src/controllers/reservationControllers.ts:12:7)","timestamp":"2025-09-21T19:03:26.954Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:03:39.073Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T19:03:40.557Z"}
