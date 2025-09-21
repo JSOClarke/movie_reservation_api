@@ -20,7 +20,7 @@ app.use("/health", healthRoutes);
 app.use("/movies", authHandler, adminOnlyHandler, movieRoutes);
 app.use("/users", userRoutes);
 app.use("/reservations", authHandler, reservationRoutes);
-app.use("/showings", authHandler, showingRoutes);
+app.use("/showings", showingRoutes);
 
 app.use(errorHandler);
 
