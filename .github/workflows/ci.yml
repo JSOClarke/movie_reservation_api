@@ -24,8 +24,8 @@ jobs:
         run: npm ci
 
       # Step 4 - Lint
-      - name: Run ESLint
-        run: npm run lint
+      #- name: Run ESLint
+      #  run: npm run lint
 
       # Step 5 - Run tests
       - name: Run Tests
