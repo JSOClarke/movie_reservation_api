@@ -3472,3 +3472,47 @@
 {"level":"error","message":"Unhandled error: res.stats is not a function","stack":"TypeError: res.stats is not a function\n    at createBooking (/home/jay/Documents/code_projects/movie_reservation/src/controllers/reservationControllers.ts:12:7)","timestamp":"2025-09-21T19:03:26.954Z"}
 {"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:03:39.073Z"}
 {"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T19:03:40.557Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:04:40.949Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:35:17.109Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T19:35:17.237Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:17.381Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:17.564Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:17.731Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:17.870Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:18.058Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:18.222Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:18.352Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:18.511Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:18.689Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T19:35:18.723Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:18.850Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T19:35:18.882Z"}
+{"level":"info","message":"Reposne: [object Object]","timestamp":"2025-09-21T19:35:19.048Z"}
+{"level":"info","message":"Seeding 100% Completed, 20 : Movies added","timestamp":"2025-09-21T19:35:19.083Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:35:19.264Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2025-09-21T19:35:19.613Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Unhandled error: Cannot set headers after they are sent to the client","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:684:10)\n    at ServerResponse.send (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:161:12)\n    at ServerResponse.json (/home/jay/Documents/code_projects/movie_reservation/node_modules/express/lib/response.js:250:15)\n    at json (/home/jay/Documents/code_projects/movie_reservation/src/controllers/userControllers.ts:66:21)","timestamp":"2025-09-21T19:35:19.613Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T19:43:24.367Z"}
+{"clientVersion":"6.16.2","code":"P2003","level":"error","message":"Unhandled error: \nInvalid `prisma.bookings.create()` invocation:\n\n\nForeign key constraint violated on the constraint: `bookings_show_id_fkey`","meta":{"constraint":"bookings_show_id_fkey","modelName":"bookings"},"name":"PrismaClientKnownRequestError","timestamp":"2025-09-21T19:43:24.412Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:43:40.184Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:43:47.733Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-21T19:44:19.478Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T19:44:22.352Z"}
+{"clientVersion":"6.16.2","code":"P2003","level":"error","message":"Unhandled error: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, seat_id }) => {\n→ 7   const response = await prisma.bookings.create(\nForeign key constraint violated on the constraint: `bookings_show_id_fkey`","meta":{"constraint":"bookings_show_id_fkey","modelName":"bookings"},"name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.bookings.create()` invocation in\n/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:42\n\n  4 const prisma = new PrismaClient();\n  5 \n  6 export const addBooking = async ({ user_id, show_id, seat_id }) => {\n→ 7   const response = await prisma.bookings.create(\nForeign key constraint violated on the constraint: `bookings_show_id_fkey`\n    at ei.handleRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:7268)\n    at ei.handleAndLogRequestError (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6593)\n    at ei.request (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:124:6300)\n    at async a (/home/jay/Documents/code_projects/movie_reservation/src/generated/prisma/runtime/library.js:133:9551)\n    at async addBooking (/home/jay/Documents/code_projects/movie_reservation/src/services/reservationServices.ts:7:20)\n    at async createBooking (/home/jay/Documents/code_projects/movie_reservation/src/controllers/reservationControllers.ts:12:20)","timestamp":"2025-09-21T19:44:22.422Z"}
+{"level":"info","message":"SHOW ID: 1Start Date: 2025-05-09T01:00:00.000Z, End Date: 2025-05-09T03:00:00.000Z","timestamp":"2025-09-21T19:45:02.364Z"}
+{"level":"info","message":"SHOW ID: 2Start Date: 2025-05-09T04:00:00.000Z, End Date: 2025-05-09T06:00:00.000Z","timestamp":"2025-09-21T19:45:02.368Z"}
+{"level":"info","message":"SHOW ID: 3Start Date: 2025-05-09T07:00:00.000Z, End Date: 2025-05-09T09:00:00.000Z","timestamp":"2025-09-21T19:45:02.369Z"}
+{"level":"info","message":"SHOW ID: 4Start Date: 2025-05-09T10:00:00.000Z, End Date: 2025-05-09T12:00:00.000Z","timestamp":"2025-09-21T19:45:02.372Z"}
+{"level":"info","message":"SHOW ID: 5Start Date: 2025-05-09T13:00:00.000Z, End Date: 2025-05-09T15:00:00.000Z","timestamp":"2025-09-21T19:45:02.374Z"}
+{"level":"info","message":"SHOW ID: 6Start Date: 2025-05-09T16:00:00.000Z, End Date: 2025-05-09T18:00:00.000Z","timestamp":"2025-09-21T19:45:02.376Z"}
+{"level":"info","message":"SHOW ID: 7Start Date: 2025-05-09T19:00:00.000Z, End Date: 2025-05-09T21:00:00.000Z","timestamp":"2025-09-21T19:45:02.377Z"}
+{"level":"info","message":"SHOW ID: 8Start Date: 2025-05-09T22:00:00.000Z, End Date: 2025-05-10T00:00:00.000Z","timestamp":"2025-09-21T19:45:02.379Z"}
+{"level":"info","message":"SHOW ID: 9Start Date: 2025-05-10T01:00:00.000Z, End Date: 2025-05-10T03:00:00.000Z","timestamp":"2025-09-21T19:45:02.381Z"}
+{"level":"info","message":"SHOW ID: 10Start Date: 2025-05-10T04:00:00.000Z, End Date: 2025-05-10T06:00:00.000Z","timestamp":"2025-09-21T19:45:02.384Z"}
+{"level":"info","message":"SHOW ID: 11Start Date: 2025-05-10T07:00:00.000Z, End Date: 2025-05-10T09:00:00.000Z","timestamp":"2025-09-21T19:45:02.386Z"}
+{"level":"info","message":"SHOW ID: 12Start Date: 2025-05-10T10:00:00.000Z, End Date: 2025-05-10T12:00:00.000Z","timestamp":"2025-09-21T19:45:02.388Z"}
+{"level":"info","message":"SHOW ID: 13Start Date: 2025-05-10T13:00:00.000Z, End Date: 2025-05-10T15:00:00.000Z","timestamp":"2025-09-21T19:45:02.390Z"}
+{"level":"info","message":"SHOW ID: 14Start Date: 2025-05-10T16:00:00.000Z, End Date: 2025-05-10T18:00:00.000Z","timestamp":"2025-09-21T19:45:02.391Z"}
+{"level":"info","message":"SHOW ID: 15Start Date: 2025-05-10T19:00:00.000Z, End Date: 2025-05-10T21:00:00.000Z","timestamp":"2025-09-21T19:45:02.393Z"}
+{"level":"info","message":{"seat_id":1,"show_id":1,"user_id":1},"timestamp":"2025-09-21T19:45:14.343Z"}
+{"level":"info","message":"Server has been started 4000","timestamp":"2025-09-22T13:27:35.037Z"}
